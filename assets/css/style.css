@@ -1,5 +1,5 @@
 .nav-color{
-	background-color: rgb(10, 30, 60);
+	background-color: rgb(24, 64, 123) !important;
 }
 
 .container-fluid{
@@ -20,7 +20,7 @@ body{
 }
 
 .color-footer{
-	background-color: rgb(10, 30, 60) !important;
+	background-color: rgb(24, 64, 123) !important;
 }
 
 .portfolioImg{
@@ -28,7 +28,8 @@ body{
 }
 
 .sobre{
-	background-color: rgb(10, 30, 60) !important;
+	background-color: rgb(24, 64, 123) !important;
+	padding: 25px;
 }
 
 .row{
@@ -38,8 +39,18 @@ body{
 
 .conhecimento{
 	background-color: rgba(24, 65, 14, 0.65);
+	padding: 25px;
 }
 
 .portfolio{
 	background-color: rgba(24, 65, 14, 0.75);
+	padding: 25px;
 }
+
+button span {
+    /*overwriting*/
+    color: white;
+    font-size: 25px;
+}
+ 
+
